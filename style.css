@@ -10,7 +10,9 @@ body {
   width: 100%;
 }
 
-
+.row{
+  display: block;
+}
 .logo {
   margin-top: 20px;
   max-width: 100px;
