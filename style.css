@@ -1,43 +1,124 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Open Sans";
-  background-color: #9dbf9e;
-  background-image: url("./assets/bg.jpg");
 }
-h1,
-h2,
-h3,
-h4,
-.h1,
-.h2,
-.h3
-.h4 {
-  font-family: "Montserrat";
-  text-align: center;
+
+body {
+  background: white;
+  width: 100%;
 }
-.list-group-item + .list-group-item,
-.list-group-item-action,
-.list-group-item-action:first-child,
-.list-group-item-action:last-child {
-  background-color: #b6e8f3;
-  line-height: 1;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 15px;
-  border: 1px solid #ee7674;
-  box-shadow: 0 0 3px #ee7674;
-  transition: font-weight 0.25s linear, background-color 0.25s linear, transform 0.1s linear;
-}
-.list-group-item + .list-group-item:hover,
-.list-group-item-action:hover,
-.list-group-item-action:first-child:hover,
-.list-group-item-action:last-child:hover {
-  background-color: #2bd2f8;
-  transform: scale(1.2);
-  font-weight: 500;
-}
+
+
 .logo {
+  margin-top: 20px;
   max-width: 100px;
+  border-radius: 5px;
 }
 p{
-  text-align: center; 
+  text-align: center;
+}
+.navbar{
+  height: 70px;
+  width: 100%;
+  background: #292C35;
+}
+
+.navbar p{
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_chryzhub{
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.list{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  width: 500px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 8px;
+  padding: 9px;
+  margin-bottom: 3px;
+}
+
+.list:hover{
+  width: 550px;
+  height: 50.4px;
+  background: #292C35;
+  color: white;
+  border:none;
+  transition: font-weight 0.25s linear, background-color 0.25s linear, transform 0.1s
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+  font-size: 20.3px;
+}
+
+.socials{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.socials i{
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+.socials i:hover{
+  font-size: 30.5px;
+}
+
+#twitter{
+  color: #1DA1F2;
+}
+
+#discord{
+  color: #7289d9
+}
+
+#youtube{
+  color: #FF0000;
+}
+
+#email{
+  color: #c71610;
+}
+
+footer{
+  background: #292C35;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 50px;
+}
+
+.footer-bottom{
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+.footer-bottom a{
+  color: white;
 }
