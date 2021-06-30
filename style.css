@@ -10,7 +10,9 @@ body {
   width: 100%;
 }
 
-
+.row{
+  display: block;
+}
 .logo {
   margin-top: 20px;
   max-width: 100px;
@@ -38,6 +40,9 @@ p{
   font-family: 'Montserrat';
   font-weight: 500;
   line-height: 40px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list{
@@ -79,6 +84,7 @@ a:hover{
   margin-right: auto;
   margin-top: 10px;
   padding: 10px 20px;
+  width: 100%;
 }
 
 .socials i{
@@ -121,4 +127,50 @@ footer{
 
 .footer-bottom a{
   color: white;
+}
+
+@media all and (min-width: 300px) and (max-width: 600px){
+  .about_chryzhub{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 70%;
+  }
+
+  .list{
+    width: 350px;
+    height: 50px;
+  }
+
+  .list:hover{
+    width: 350.5px;
+    height: 50.5px;
+  }
+
+  .socials i{
+    padding-left: 20px;
+  }
+}
+@media all and (min-width: 250px) and (max-width: 400px){
+.about_chryzhub{
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 30px;
+    width: 70%;
+}
+
+.list{
+  width: 300px;
+  height: 50px;
+}
+
+.list:hover{
+  width: 300.5px;
+  height: 50.5px;
+}
+
+.socials i{
+  padding-left: 10px;
+}
+
 }
