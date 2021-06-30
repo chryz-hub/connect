@@ -40,6 +40,9 @@ p{
   font-family: 'Montserrat';
   font-weight: 500;
   line-height: 40px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list{
@@ -132,8 +135,6 @@ footer{
     font-weight: 500;
     line-height: 30px;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .list{
