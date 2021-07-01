@@ -152,24 +152,24 @@ footer{
   }
 }
 @media all and (min-width: 250px) and (max-width: 400px){
-.about_chryzhub{
-    font-size: 18px;
-    font-weight: 450;
-    line-height: 30px;
-    width: 70%;
-}
+  .about_chryzhub{
+      font-size: 18px;
+      font-weight: 450;
+      line-height: 30px;
+      width: 70%;
+  }
 
-.list{
-  width: 300px;
-  height: 50px;
-}
+  .list{
+    width: 300px;
+    height: 50px;
+  }
 
-.list:hover{
-  width: 300.5px;
-  height: 50.5px;
-}
+  .list:hover{
+    width: 300.5px;
+    height: 50.5px;
+  }
 
-.socials i{
-  padding-left: 10px;
-}
+  .socials i{
+    padding-left: 10px;
+  }
 }
