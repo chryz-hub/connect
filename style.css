@@ -5,9 +5,95 @@
   font-family: "Open Sans";
 }
 
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  justify-content: space-between;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  float: right;
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  transform: scale(1.2);
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(22px);
+}
+
+.fa-moon {
+	color: #f1c40f;
+	font-size: 15px;
+}
+
+.fa-sun {
+	color: #f39c12;
+	padding-left:10px;
+	font-size: 15px;
+}
+
+
 body {
-  background: white;
   width: 100%;
+  margin: 0;
+  background-color: #fafafa;
+  height: 100%;
+  transition: background 0.2s linear;
+}
+
+body.dark {
+	background: #292C35;
+}
+
+body.dark nav{
+	background: white;
+}
+
+body.dark nav p{
+	color: black;
+}
+
+body.dark nav{
+	background: white;
+}
+
+body.dark .list {
+	color: white;
+  border: 1px solid white;
+}
+
+body.dark .about_chryzhub{
+	color: white;
+}
+
+body.dark footer{
+  background: white;
+}
+
+body.dark .footer-bottom{
+  color: black;
+}
+
+body.dark .footer-bottom a{
+  color: black;
 }
 
 .row{
@@ -33,6 +119,7 @@ p{
   color: white;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 50px;
 }
 
 .about_chryzhub{
