@@ -96,6 +96,11 @@ body.dark .footer-bottom a{
   color: black;
 }
 
+body.dark .list:hover{
+  background: white;
+  color: black;
+}
+
 .row{
   display: block;
 }
