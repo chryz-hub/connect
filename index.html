@@ -17,6 +17,12 @@
   <body>
     <nav class="navbar">
       <p>Chryz-Hub</p>
+      <input type="checkbox" class="checkbox" id="chk" />
+       <label class="label" for="chk">
+           <i class="fas fa-moon"></i>
+           <i class="fas fa-sun"></i>
+           <div class="ball"></div>
+        </label>
     </nav>
     <div class="container">
       <div class="row">
@@ -78,5 +84,11 @@
       <footer>
         <p class="footer-bottom">Made with ❤️ by <a href="https://github.com/chryz-hub">ChryzHub</a></p>
       </footer>
+      <script>
+        const chk = document.getElementById('chk');
+        chk.addEventListener('change', () => {
+          document.body.classList.toggle('dark');
+      });
+      </script>
   </body>
 </html>
