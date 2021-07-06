@@ -169,37 +169,22 @@ a:hover{
   font-size: 20.3px;
 }
 
-.socials{
+.socials {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   padding: 10px 20px;
-  width: 100%;
 }
 
-.socials i{
+.socials a {
   padding-left: 30px;
   font-size: 30px;
+  color: #555;
+  transition: color 0.4s ease-in-out;
 }
 
-.socials i:hover{
-  font-size: 30.5px;
-}
-
-#twitter{
-  color: #1DA1F2;
-}
-
-#discord{
-  color: #7289d9
-}
-
-#youtube{
-  color: #FF0000;
-}
-
-#email{
-  color: #c71610;
+.socials a:hover {
+  color: #222;
 }
 
 footer{
