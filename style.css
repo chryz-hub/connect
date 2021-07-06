@@ -150,8 +150,6 @@ p{
 }
 
 .list:hover{
-  width: 550px;
-  height: 50.4px;
   background: #292C35;
   color: white;
   border:none;
