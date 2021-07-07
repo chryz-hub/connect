@@ -50,6 +50,10 @@
 	font-size: 15px;
 }
 
+.fa-heart {
+  color: #C96198;
+}
+
 
 body {
   width: 100%;
@@ -99,6 +103,14 @@ body.dark .footer-bottom a{
 body.dark .list:hover{
   background: white;
   color: black;
+}
+
+.sponsor_btn > a:hover {
+  background-color: #373E47;
+}
+
+.sponsor_btn > a:hover {
+  font-size: inherit;
 }
 
 .row{
