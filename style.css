@@ -36,7 +36,14 @@
 }
 
 .checkbox:checked + .label .ball {
-	transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+.moveBall {
+  transform: translateX(22px);
+}
+.moveBallBack {
+  transform: translateX(0px);
 }
 
 .fa-moon {
