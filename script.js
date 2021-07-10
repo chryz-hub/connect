@@ -27,3 +27,7 @@ function changeThemeToLight() {
   document.body.classList.remove('dark');
   localStorage.setItem('theme', 'light');
 }
+
+window.addEventListener('load', function () {
+  (window.matchMedia('(prefers-color-scheme: dark)').matches)?changeThemeToDark():changeThemeToLight();
+})
