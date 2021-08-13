@@ -223,7 +223,7 @@ footer{
   color: white;
 }
 
-@media all and (min-width: 300px) and (max-width: 600px){
+@media all and (min-width: 100px) and (max-width: 600px){
   .about_chryzhub{
     font-size: 19px;
     font-weight: 500;
@@ -241,10 +241,10 @@ footer{
     height: 50.5px;
   }
 
-  .socials i{
-    padding-left: 20px;
-  }
-}
+  .socials a {
+    margin: 0 5px;
+ }
+
 @media all and (min-width: 250px) and (max-width: 400px){
   .about_chryzhub{
       font-size: 18px;
@@ -267,3 +267,36 @@ footer{
     padding-left: 10px;
   }
 }
+
+@media all and (min-width: 100px) and (max-width: 320px){
+  .label{
+    display: none;
+  }
+
+  nav > p{
+
+    padding-left: 0 !important;
+    font-size: 25px !important;
+    margin-top: 10px !important;
+  }
+
+  .list{
+    width: 80%;
+  }
+
+  .list > .fab, .fa, .fas{
+    display: none;
+  }
+
+  .sponsor{
+    display: none;
+  }
+
+  .words{
+    font-size: 18px;
+  }
+
+  .about_chryzhub{
+    font-size: 16px;
+  }
+}}
